@@ -1,0 +1,83 @@
+python --version
+python
+print('Olá, Mundo!')
+
+print(7+4)
+print('olá',5)
+
+Comentário
+# comentar linhas individuais
+''' texto ''' comentar várias linhas
+
+
+Variáveis 
+nome = 'Misa'
+idade = 30
+peso = 60.5
+print(nome, idade, peso)
+print('Meu nome é',nome, ', tenho', idade, 'anos e peso', peso, 'kg.')
+
+Entradas (Input)
+nome = input('Qual é o seu nome? ')
+idade = input('Quantos anos você tem? ')
+peso = input('Qual é o seu peso? ')
+print(nome, idade, peso)
+
+Tipos Primitivos (type)
+int (números inteiros)
+float (números reais)
+bool (booleano 0 ou 1 True ou False)
+str (string de texto 'Olá')
+
+Operadores Aritméticos
+Igual ==
+Adição +
+Subtração -
+Multiplicação *
+Divisão /
+Potência **
+Divisão Inteira //
+Resto da Divisão %
+
+Ordem de Precedência
+1 ()
+2 **
+3 * / // % 
+4 + -
+
+Módulos 
+import "nome das bibliotecas"
+from "função específica" import "nome das bibliotecas"
+
+math 
+ceil (arredondamento pra cima)
+floor (arredondamento pra baixo)
+trunc (truncar)
+pow (potencia)
+sqrt (raiz quadrada)
+factorial (fatorial)
+
+emoji (https://pypi.org/project/emoji/) (https://carpedm20.github.io/emoji/all.html?enableList=enable_list_it) 
+print(emoji.emojize('Olá, Mundo :globo_mostrando_as_américas:', language="pt"))
+
+import pygame
+
+Python Strings Methods (https://www.w3schools.com/python/python_ref_string.asp)
+
+Estruturas Condicionais
+if carro.esquerda():
+	bloco True
+else:
+	bloco False
+
+Variáveis Compostas
+() - Tuplas (São imutáveis)
+[] - Listas
+{} - Dicionários
+
+
+
+
+
+
+

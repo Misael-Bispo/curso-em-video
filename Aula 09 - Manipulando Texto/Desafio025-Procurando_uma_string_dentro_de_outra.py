@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome: ')).strip()
+tnome = nome.lower()
+pnome = tnome.split()
+print(pnome)
+print('Seu nome tem Silva? ', 'silva' in pnome)

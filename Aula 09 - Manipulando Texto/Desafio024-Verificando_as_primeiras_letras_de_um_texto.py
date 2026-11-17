@@ -1,0 +1,5 @@
+cidade = str(input('Digite o nome da cidade: ')).strip()
+tcidade = cidade.lower()
+pcidade = tcidade.split()
+print(pcidade)
+print('santo' in pcidade[0])
