@@ -14,7 +14,8 @@ itens = os.listdir(pasta_atual)
 
 # 5. Cria e escreve no arquivo .txt
 with open(arquivo_saida, 'w', encoding='utf-8') as arquivo:
-    arquivo.write(f'--- LISTA DE ARQUIVOS EM: {pasta_atual} ---\n\n')
+    # Grava só o nome da pasta, sem o caminho completo do PC
+    arquivo.write(f'--- LISTA DE ARQUIVOS EM: {os.path.basename(pasta_atual)} ---\n\n')
     
     for item in itens:
         # Ignora o próprio script e o arquivo txt gerado para não poluírem a lista
